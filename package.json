@@ -1,0 +1,34 @@
+{
+  "name": "magic-translate-demo",
+  "version": "1.0.0",
+  "description": "This is a simple demo to demonstrate the magic of instant translations with Magic Translate. \nTo create your own API key please visit https://magictranslate.io and get started for free.",
+  "keywords": [
+    "i18n",
+    "magic-translate",
+    "react"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@magic-translate/react": "1.15.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "typescript": "4.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
